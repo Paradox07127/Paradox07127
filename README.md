@@ -146,3 +146,5 @@ routing — over a local corpus with zero external data egress.
 <div align="center">
 <sub>Virginia Tech · B.S. Computer Science · 2021 – 2024</sub>
 </div>
+
+<!-- profile -->
