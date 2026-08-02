@@ -30,9 +30,7 @@
 ![Commits](https://img.shields.io/badge/1%2C285%20commits-2F855A?style=flat-square&logo=git&logoColor=white)
 ![Releases](https://img.shields.io/badge/9%20releases-2B6CB0?style=flat-square&logo=github&logoColor=white)
 
-每块接入的显示器都能跑各自的视频、沙箱网页、Metal 程序化着色器,或 Wallpaper Engine 场景。菜单栏优先的交互,
-支持播放列表、定时轮换,以及全屏、游戏窗口、窗口遮挡和电池模式下的自动暂停。不需要账号,没有遥测。
-Lite 与 Pro 在编译期分版(`#if LITE_BUILD`),而不是把功能藏在 UI 后面。
+每块接入的显示器都能跑各自的视频、沙箱网页、Metal 程序化着色器,或 Wallpaper Engine 场景。菜单栏优先的交互,支持播放列表、定时轮换,以及全屏、游戏窗口、窗口遮挡和电池模式下的自动暂停。不需要账号,没有遥测。Lite 与 Pro 在编译期分版(`#if LITE_BUILD`),而不是把功能藏在 UI 后面。
 
 ### [Analyst-Copilot](https://github.com/Paradox07127/Analyst-Copilot) &nbsp;·&nbsp; 本地优先的数据分析 Agent 平台
 
@@ -42,9 +40,7 @@ Lite 与 Pro 在编译期分版(`#if LITE_BUILD`),而不是把功能藏在 UI �
 ![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-先做确定性的数据画像与校验,再让 LLM 工作流在约束下扩展这些既定事实。生成报告里的每一条论断都有
-claim ledger 支撑、并经过硬校验器检查;开放式的 Python 分析隔离在沙箱中运行。全链路 Pydantic 类型化产物,
-多表关联的发现与验证走 DuckDB。
+先做确定性的数据画像与校验,再让 LLM 工作流在约束下扩展这些既定事实。生成报告里的每一条论断都有 claim ledger 支撑、并经过硬校验器检查;开放式的 Python 分析隔离在沙箱中运行。全链路 Pydantic 类型化产物,多表关联的发现与验证走 DuckDB。
 
 ### [Urban-Dossier](https://github.com/Paradox07127/Urban-Dossier) &nbsp;·&nbsp; 完全离线的纽约社区情报系统
 
@@ -53,10 +49,7 @@ claim ledger 支撑、并经过硬校验器检查;开放式的 Python 分析隔�
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Award](https://img.shields.io/badge/🏆%20Spark%20Hack%20NYC%202026-76B900?style=flat-square)
 
-在纽约地图上点任意一处,就能拿到一份关于治安、交通、配套和建筑状况的数据档案 —— 与全市水平对标、
-按时间成趋势、由端侧 LLM 生成叙述,全程不调用云端。单台 DGX Spark GB10 上,一套 vLLM 同时承载
-Nemotron-30B(NVFP4)与 Qwen3-Embedding-4B,并与约 30 GiB 的 cuDF / cuVS 数据缓存共存;
-cuML DBSCAN 在 17 个纽约开放数据源上做事件热点聚类。
+在纽约地图上点任意一处,就能拿到一份关于治安、交通、配套和建筑状况的数据档案 —— 与全市水平对标、按时间成趋势、由端侧 LLM 生成叙述,全程不调用云端。单台 DGX Spark GB10 上,一套 vLLM 同时承载 Nemotron-30B(NVFP4)与 Qwen3-Embedding-4B,并与约 30 GiB 的 cuDF / cuVS 数据缓存共存;cuML DBSCAN 在 17 个纽约开放数据源上做事件热点聚类。
 
 ### [Clinical-Simulator](https://github.com/Paradox07127/Clinical-Simulator) &nbsp;·&nbsp; AI 临床训练平台
 
@@ -65,9 +58,7 @@ cuML DBSCAN 在 17 个纽约开放数据源上做事件热点聚类。
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 ![Award](https://img.shields.io/badge/🏆%20Cornell%20AI%20Hackathon%20—%20Grand%20Prize-B31B1B?style=flat-square)
 
-面向医学生的两个训练模块。一个是能从第一句问诊聊到最终诊断的 AI 标准化病人,按 6 个维度评分并实时追踪
-问诊覆盖度;另一个是基于摄像头的心肺复苏练习 —— MediaPipe 姿态追踪 33 个关键点 / 30 fps,
-用手腕运动峰值检测按压,按 7 个维度对照完整的 30:2 BLS 流程评分。
+面向医学生的两个训练模块。一个是能从第一句问诊聊到最终诊断的 AI 标准化病人,按 6 个维度评分并实时追踪问诊覆盖度;另一个是基于摄像头的心肺复苏练习 —— MediaPipe 姿态追踪 33 个关键点 / 30 fps,用手腕运动峰值检测按压,按 7 个维度对照完整的 30:2 BLS 流程评分。
 
 ### [rag-agent](https://github.com/guochenmeinian/rag-agent) &nbsp;·&nbsp; 车载问答的混合检索 Agent
 
@@ -75,8 +66,7 @@ cuML DBSCAN 在 17 个纽约开放数据源上做事件热点聚类。
 ![BGE-M3](https://img.shields.io/badge/BGE--M3-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![Role](https://img.shields.io/badge/负责-检索%20%26%20评测-6B46C1?style=flat-square)
 
-我负责混合检索(BGE-M3 稠密 + 稀疏向量走 Milvus、SQLite FTS、联网搜索),以及一套 5 指标评测框架 ——
-工具召回率 / 准确率、并行调用正确性、关键词命中率、幻觉率 —— 每次改动都要过一遍回归。
+我负责混合检索(BGE-M3 稠密 + 稀疏向量走 Milvus、SQLite FTS、联网搜索),以及一套 5 指标评测框架 —— 工具召回率 / 准确率、并行调用正确性、关键词命中率、幻觉率 —— 每次改动都要过一遍回归。
 
 <img src=".assets/divider.svg" width="100%" height="3" alt="">
 
@@ -84,8 +74,7 @@ cuML DBSCAN 在 17 个纽约开放数据源上做事件热点聚类。
 
 **AI 工程实习生** — 中国—东盟信息港 &nbsp;·&nbsp; `2026 年 1 月 – 3 月`
 
-交付了生产环境的 Dify 工作流,从报关单与证书类图片 / PDF 中抽取结构化字段;并搭建了内部 RAG 助手 ——
-意图识别、多模态抽取、工具路由 —— 基于本地语料,数据零外发。
+交付了生产环境的 Dify 工作流,从报关单与证书类图片 / PDF 中抽取结构化字段;并搭建了内部 RAG 助手 —— 意图识别、多模态抽取、工具路由 —— 基于本地语料,数据零外发。
 
 <img src=".assets/divider.svg" width="100%" height="3" alt="">
 
