@@ -28,8 +28,6 @@ on-device inference, no data leaving the machine.</sub>
 ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
 ![Metal](https://img.shields.io/badge/Metal-000000?style=flat-square&logo=apple&logoColor=white)
 ![MIT](https://img.shields.io/badge/license-MIT-A5A5A5?style=flat-square)
-![Commits](https://img.shields.io/badge/1%2C285%20commits-2F855A?style=flat-square&logo=git&logoColor=white)
-![Releases](https://img.shields.io/badge/9%20releases-2B6CB0?style=flat-square&logo=github&logoColor=white)
 
 Every connected display runs its own video, sandboxed web page, Metal procedural shader, or Wallpaper
 Engine scene. Menu-bar first, with playlists, scheduled rotation, and auto-pause on full-screen, game
