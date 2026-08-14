@@ -23,15 +23,16 @@ on-device inference, no data leaving the machine.</sub>
 
 ## 🛠 Building
 
-### [Loomscreen](https://github.com/Paradox07127/Loomscreen) &nbsp;·&nbsp; macOS live-wallpaper platform
+### [Loomscreen](https://github.com/Paradox07127/macos-wallpaperengine) &nbsp;·&nbsp; Wallpaper Engine scenes on macOS
 
 ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
 ![Metal](https://img.shields.io/badge/Metal-000000?style=flat-square&logo=apple&logoColor=white)
 ![MIT](https://img.shields.io/badge/license-MIT-A5A5A5?style=flat-square)
 
-Every connected display runs its own video, sandboxed web page, Metal procedural shader, or Wallpaper
-Engine scene. Menu-bar first, with playlists, scheduled rotation, and auto-pause on full-screen, game
-windows, occlusion, and battery. No accounts, no telemetry. Lite and Pro are split at compile time
+An independent Metal renderer for Wallpaper Engine scenes — not affiliated with Wallpaper Engine.
+Also plays video and sandboxed web-page wallpapers, with each connected display running its own source.
+Menu-bar first, with playlists, scheduled rotation, and auto-pause on full-screen, game windows,
+occlusion, and battery. No accounts, no telemetry. Lite and Pro are split at compile time
 (`#if LITE_BUILD`) rather than by hiding UI.
 
 ### [Analyst-Copilot](https://github.com/Paradox07127/Analyst-Copilot) &nbsp;·&nbsp; local-first agent platform for data analysis

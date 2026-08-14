@@ -22,15 +22,13 @@
 
 ## 🛠 在做的项目
 
-### [Loomscreen](https://github.com/Paradox07127/Loomscreen) &nbsp;·&nbsp; macOS 动态壁纸平台
+### [Loomscreen](https://github.com/Paradox07127/macos-wallpaperengine) &nbsp;·&nbsp; 在 macOS 上跑 Wallpaper Engine 场景
 
 ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
 ![Metal](https://img.shields.io/badge/Metal-000000?style=flat-square&logo=apple&logoColor=white)
 ![MIT](https://img.shields.io/badge/license-MIT-A5A5A5?style=flat-square)
-![Commits](https://img.shields.io/badge/1%2C285%20commits-2F855A?style=flat-square&logo=git&logoColor=white)
-![Releases](https://img.shields.io/badge/9%20releases-2B6CB0?style=flat-square&logo=github&logoColor=white)
 
-每块接入的显示器都能跑各自的视频、沙箱网页、Metal 程序化着色器,或 Wallpaper Engine 场景。菜单栏优先的交互,支持播放列表、定时轮换,以及全屏、游戏窗口、窗口遮挡和电池模式下的自动暂停。不需要账号,没有遥测。Lite 与 Pro 在编译期分版(`#if LITE_BUILD`),而不是把功能藏在 UI 后面。
+用 Metal 独立实现的 Wallpaper Engine 场景渲染器,与 Wallpaper Engine 官方无关联。同时支持视频和沙箱网页壁纸,每块接入的显示器可以跑各自的内容。菜单栏优先的交互,支持播放列表、定时轮换,以及全屏、游戏窗口、窗口遮挡和电池模式下的自动暂停。不需要账号,没有遥测。Lite 与 Pro 在编译期分版(`#if LITE_BUILD`),而不是把功能藏在 UI 后面。
 
 ### [Analyst-Copilot](https://github.com/Paradox07127/Analyst-Copilot) &nbsp;·&nbsp; 本地优先的数据分析 Agent 平台
 
