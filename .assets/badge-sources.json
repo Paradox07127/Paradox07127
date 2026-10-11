@@ -1,0 +1,40 @@
+{
+  "style": "flat-square",
+  "tech_color": "465B78",
+  "achievement_color": "9C7426",
+  "source_urls": [
+    "https://img.shields.io/badge/Audio%20FX-465B78?style=flat-square",
+    "https://img.shields.io/badge/Claim%20Ledger-465B78?style=flat-square",
+    "https://img.shields.io/badge/Claude%20Mods-465B78?style=flat-square&logo=claude&logoColor=white",
+    "https://img.shields.io/badge/Cornell%20AI%20%C2%B7%20Grand%20Prize-9C7426?style=flat-square",
+    "https://img.shields.io/badge/Cosmos%203%20Nano-465B78?style=flat-square&logo=nvidia&logoColor=white",
+    "https://img.shields.io/badge/Embed1-465B78?style=flat-square",
+    "https://img.shields.io/badge/Evidence%20Gates-465B78?style=flat-square",
+    "https://img.shields.io/badge/Gemini-465B78?style=flat-square&logo=googlegemini&logoColor=white",
+    "https://img.shields.io/badge/Guards-465B78?style=flat-square",
+    "https://img.shields.io/badge/H3-465B78?style=flat-square",
+    "https://img.shields.io/badge/LangGraph-465B78?style=flat-square&logo=langgraph&logoColor=white",
+    "https://img.shields.io/badge/MediaPipe-465B78?style=flat-square&logo=mediapipe&logoColor=white",
+    "https://img.shields.io/badge/Metal-465B78?style=flat-square&logo=apple&logoColor=white",
+    "https://img.shields.io/badge/NVFP4-465B78?style=flat-square",
+    "https://img.shields.io/badge/Nemotron%203.5-465B78?style=flat-square&logo=nvidia&logoColor=white",
+    "https://img.shields.io/badge/OpenShell-465B78?style=flat-square",
+    "https://img.shields.io/badge/Particles-465B78?style=flat-square",
+    "https://img.shields.io/badge/Puppet%20Warp-465B78?style=flat-square",
+    "https://img.shields.io/badge/Real--Time%20Video%20Hack%20%C2%B7%20Finalist-9C7426?style=flat-square",
+    "https://img.shields.io/badge/Rubric%20Scoring-465B78?style=flat-square",
+    "https://img.shields.io/badge/Sandbox-465B78?style=flat-square&logo=docker&logoColor=white",
+    "https://img.shields.io/badge/Telemetry-465B78?style=flat-square",
+    "https://img.shields.io/badge/VSS%2FVastDB-465B78?style=flat-square",
+    "https://img.shields.io/badge/W%26B%20Infer%2FWeave-465B78?style=flat-square&logo=weightsandbiases&logoColor=white",
+    "https://img.shields.io/badge/mmrun-465B78?style=flat-square"
+  ],
+  "project_tag_widths": {
+    "spatial": 386,
+    "loomscreen": 266,
+    "analyst": 354,
+    "utopia": 276,
+    "urban": 254,
+    "clinical": 249
+  }
+}
