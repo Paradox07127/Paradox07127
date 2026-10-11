@@ -65,18 +65,6 @@ MediaPipe Pose 跟踪 33 个人体关键点，提供摄像头心肺复苏指导�
 - 🧩 **可靠 Agent** — 有界工作流、证据校验与评估
 - ⚙️ **推理 / 系统** — 本地 GPU 推理服务与原生图形渲染
 
-## 📦 Selected Releases · 精选版本
-
-- **[Loomscreen 0.8.6](https://github.com/Paradox07127/macos-wallpaperengine/releases/tag/loomscreen-v0.8.6)** · 静态场景空闲节能、多屏每帧呈现协调及恢复修复。
-- **[Loomscreen 0.8.2](https://github.com/Paradox07127/macos-wallpaperengine/releases/tag/loomscreen-v0.8.2)** · 同步转场、每日时间表与播放列表 / 随机轮播自动化。
-
-## 📝 Engineering Notes · 工程笔记
-
-- **[视频证据契约](https://github.com/Paradox07127/Spatial-Video-Agent/blob/main/CONTRACT.md)** · 来源追溯、结论判定与持久化调查。
-- **[有界 LangGraph 工作流](https://github.com/Paradox07127/Analyst-Copilot#langgraph-execution-architecture)** · 检查点、类型化产物与报告发布的证据门槛。
-- **[确定性的纽约社区指标](https://github.com/Paradox07127/Urban-Dossier/blob/main/docs/ARCHITECTURE.md)** · DuckDB/H3 分析、vLLM 推理与 OpenShell 边界。
-- **[原生 Metal 渲染](https://github.com/Paradox07127/macos-wallpaperengine/blob/main/docs/zh-Hans/architecture.md)** · 场景图、帧输入与每显示器渲染 Actor。
-
 <details>
 <summary><b>⚙️ 完整技术栈</b></summary>
 

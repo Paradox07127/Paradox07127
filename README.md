@@ -65,18 +65,6 @@ MediaPipe Pose tracks 33 body landmarks for camera-based CPR coaching, movement 
 - 🧩 **Reliable Agents** — bounded workflows, evidence gates, and evaluation
 - ⚙️ **Inference / Systems** — local GPU serving and native graphics
 
-## 📦 Selected Releases
-
-- **[Loomscreen 0.8.6](https://github.com/Paradox07127/macos-wallpaperengine/releases/tag/loomscreen-v0.8.6)** · Static-scene idle savings, per-frame multi-display presentation, and recovery fixes.
-- **[Loomscreen 0.8.2](https://github.com/Paradox07127/macos-wallpaperengine/releases/tag/loomscreen-v0.8.2)** · Synchronized transitions, daily scheduling, and playlist/shuffle automation.
-
-## 📝 Engineering Notes
-
-- **[Video evidence contracts](https://github.com/Paradox07127/Spatial-Video-Agent/blob/main/CONTRACT.md)** · Source provenance, claim verdicts, and durable investigations.
-- **[Bounded LangGraph workflows](https://github.com/Paradox07127/Analyst-Copilot#langgraph-execution-architecture)** · Checkpoints, typed artifacts, and evidence-gated reporting.
-- **[Deterministic NYC metrics](https://github.com/Paradox07127/Urban-Dossier/blob/main/docs/ARCHITECTURE.md)** · DuckDB/H3 analysis, vLLM serving, and OpenShell boundaries.
-- **[Native Metal rendering](https://github.com/Paradox07127/macos-wallpaperengine/blob/main/docs/en/architecture.md)** · Scene graphs, frame inputs, and per-display render actors.
-
 <details>
 <summary><b>⚙️ Full technical stack</b></summary>
 
