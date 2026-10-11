@@ -2,96 +2,83 @@
 
 # Taijia Liang
 
-**AI Engineer** · LLM Agents — Retrieval — Local Inference
+**AI Engineer** · Agent Systems · Multimodal AI · Developer Tools
 
-`M.S. Computer Science, NYU '26` · `New York, NY`
+`M.S. Computer Science, NYU · Expected Dec 2026` · `New York, NY`
 
-[![Email](https://img.shields.io/badge/tl4549@nyu.edu-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tl4549@nyu.edu)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tl4549@nyu.edu)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge)](https://linkedin.com/in/taijia-liang-1151ba265/)
 
 **English** · [简体中文](README.zh-Hans.md)
 
-<sub>I build systems where the language model is one component among many — retrieval, evaluation<br>
-harnesses, GPU data paths, sandboxed tool execution. Most of what I ship runs locally:<br>
-on-device inference, no data leaving the machine.</sub>
+<sub>I build agents that work with tools, measurements, and reviewable evidence —<br>
+from data analysis and video investigation to the tools developers use to build them.</sub>
 
-**🔍 Open to Fall 2026 internships and new-grad roles starting Jan 2027.**
+**🔍 Seeking 2027 new-grad roles in AI/ML Engineering and Software Engineering · Available Jan 2027.**
 
 </div>
 
 <img src=".assets/divider.svg" width="100%" height="3" alt="">
 
-## 🛠 Building
+## 🛠 Selected Projects
 
-### [Loomscreen](https://github.com/Paradox07127/macos-wallpaperengine) &nbsp;·&nbsp; Wallpaper Engine scenes on macOS
+### [Loomscreen](https://github.com/Paradox07127/macos-wallpaperengine) · Wallpaper Engine scenes on macOS
 
 ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
-![Metal](https://img.shields.io/badge/Metal-000000?style=flat-square&logo=apple&logoColor=white)
-![MIT](https://img.shields.io/badge/license-MIT-A5A5A5?style=flat-square)
+![Metal](https://img.shields.io/badge/Metal-181717?style=flat-square&logo=apple&logoColor=white)
 
-An independent Metal renderer for Wallpaper Engine scenes — not affiliated with Wallpaper Engine.
-Also plays video and sandboxed web-page wallpapers, with each connected display running its own source.
-Menu-bar first, with playlists, scheduled rotation, and auto-pause on full-screen, game windows,
-occlusion, and battery. No accounts, no telemetry. Lite and Pro are split at compile time
-(`#if LITE_BUILD`) rather than by hiding UI.
+An independent Metal renderer for Wallpaper Engine scenes, with video and web wallpapers across multiple displays. A menu-bar app with playlists, scheduled rotation, and automatic playback controls for full-screen apps, occlusion, and battery use.
 
-### [Analyst-Copilot](https://github.com/Paradox07127/Analyst-Copilot) &nbsp;·&nbsp; local-first agent platform for data analysis
+### [Spatial-Video-Agent](https://github.com/Paradox07127/Spatial-Video-Agent) · Evidence-grounded video investigation
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Three.js](https://img.shields.io/badge/Three.js-20232A?style=flat-square&logo=threedotjs&logoColor=white)
+
+Investigate multi-camera scenes and dashcam footage through natural-language questions, interactive 3D views, maps, and source video. CV and geometry provide measurements; the agent tracks evidence and marks claims supported, contradicted, or unresolved.
+
+### [Analyst-Copilot](https://github.com/Paradox07127/Analyst-Copilot) · Reviewable data analysis with bounded agents
+
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=white)
 ![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-Deterministic profiling and validation come first; LLM workflows extend those facts under constraints.
-Every claim in a generated report is backed by a claim ledger and checked by hard validators, and
-open-ended Python analysis runs isolated in a sandbox. Pydantic-typed artifacts end to end, DuckDB for
-multi-table join discovery and validation.
+A local-first analytical workspace combining deterministic profiling with bounded LangGraph workflows. Evidence artifacts, claim ledgers, and validators check report citations and numeric claims; model-authored Python runs in a separate Docker sandbox.
 
-### [Urban-Dossier](https://github.com/Paradox07127/Urban-Dossier) &nbsp;·&nbsp; fully-offline NYC neighborhood intelligence
+### [claude-utopia](https://github.com/Paradox07127/claude-utopia) · Tools for working with coding agents
 
-![vLLM](https://img.shields.io/badge/vLLM-000000?style=flat-square&logo=vllm&logoColor=white)
-![RAPIDS](https://img.shields.io/badge/RAPIDS%20%2F%20CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Award](https://img.shields.io/badge/🏆%20Spark%20Hack%20NYC%202026-76B900?style=flat-square)
+![Claude Code](https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
-Click anywhere on a map of New York and get a data-driven dossier on safety, transit, amenities, and
-building conditions — scored against the city, trended over time, narrated by an on-device LLM, with no
-cloud calls. One vLLM stack co-tenants Nemotron-30B (NVFP4) and Qwen3-Embedding-4B on a single DGX Spark
-GB10 alongside a ~30 GiB cuDF/cuVS dataset cache, while cuML DBSCAN clusters incident hotspots across
-17 NYC open-data sources.
+Claude Code plugins for agent dashboards and timelines, cross-model review and delegation, workflow guards, and persistent project progress tracking.
 
-### [Clinical-Simulator](https://github.com/Paradox07127/Clinical-Simulator) &nbsp;·&nbsp; AI clinical training platform
+### [Urban-Dossier](https://github.com/Paradox07127/Urban-Dossier) · Local NYC neighborhood intelligence
+
+![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
+![vLLM](https://img.shields.io/badge/vLLM-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![Spark Hack NYC 2026 · Participant](https://img.shields.io/badge/Spark%20Hack%20NYC%202026%20%C2%B7%20Participant-76B900?style=flat-square&logo=nvidia&logoColor=white)
+
+An interactive NYC map built on DuckDB, Parquet, and H3: deterministic neighborhood metrics, address comparisons, and evidence-based narratives from a local Nemotron model. Started at Spark Hack NYC 2026.
+
+### [Clinical-Simulator](https://github.com/Paradox07127/Clinical-Simulator) · AI clinical training
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square&logo=google&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-![Award](https://img.shields.io/badge/🏆%20Cornell%20AI%20Hackathon%20—%20Grand%20Prize-B31B1B?style=flat-square)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square&logo=mediapipe&logoColor=white)
+![Cornell AI Hackathon · Grand Prize](https://img.shields.io/badge/Cornell%20AI%20Hackathon%20%C2%B7%20Grand%20Prize-B31B1B?style=flat-square)
 
-Two training modules for medical students. An AI patient you interview from first question to final
-diagnosis, scored on a 6-dimension rubric with live coverage tracking. And camera-based CPR practice —
-MediaPipe pose tracking at 33 landmarks / 30 fps, compression detection from wrist-motion peaks, scored
-on 7 dimensions against the full 30:2 BLS protocol.
-
-### [rag-agent](https://github.com/guochenmeinian/rag-agent) &nbsp;·&nbsp; hybrid-retrieval agent for vehicle QA
-
-![Milvus](https://img.shields.io/badge/Milvus-00A1EA?style=flat-square&logo=milvus&logoColor=white)
-![BGE-M3](https://img.shields.io/badge/BGE--M3-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![Role](https://img.shields.io/badge/role-retrieval%20%26%20eval%20owner-6B46C1?style=flat-square)
-
-I owned hybrid retrieval — BGE-M3 dense + sparse over Milvus, SQLite FTS, and web search — and a
-5-metric evaluation harness covering tool recall/precision, parallel-call correctness, keyword hit
-rate, and hallucination, which regression-tests every change.
+AI patient interviews with rubric-based feedback, plus camera-based CPR practice using MediaPipe pose tracking. Built as a team project at the Cornell AI Hackathon.
 
 <img src=".assets/divider.svg" width="100%" height="3" alt="">
 
 ## 💼 Experience
 
-**AI Engineering Intern** — China-ASEAN Information Harbor &nbsp;·&nbsp; `Jan – Mar 2026`
+**AI Automation Engineering Intern** — Founders' Impact · `Sep 2026 – Present`
 
-Shipped production Dify workflows extracting structured fields from customs and certificate documents
-(image + PDF), and built an internal RAG assistant — intent recognition, multimodal extraction, tool
-routing — over a local corpus with zero external data egress.
+Building surety underwriting workflows around document intake and extraction, constrained tool calls, evidence records, and human approval.
+
+**AI Engineering Intern** — China-ASEAN Information Harbor · `Jan – Mar 2026`
+
+Built Dify workflows for structured extraction from customs and certificate documents, and an internal knowledge assistant with intent recognition and tool routing.
 
 <img src=".assets/divider.svg" width="100%" height="3" alt="">
 
@@ -103,47 +90,49 @@ routing — over a local corpus with zero external data egress.
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![C++](https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square)
 
 </td></tr>
-<tr><td align="right"><b>AI / ML</b></td><td>
+<tr><td align="right"><b>Agents / AI</b></td><td>
 
+![Claude Code](https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![Milvus](https://img.shields.io/badge/Milvus-00A1EA?style=flat-square&logo=milvus&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI%20SDK-412991?style=flat-square)
 
 </td></tr>
-<tr><td align="right"><b>Inference&nbsp;/&nbsp;GPU</b></td><td>
-
-![vLLM](https://img.shields.io/badge/vLLM-000000?style=flat-square&logo=vllm&logoColor=white)
-![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
-![RAPIDS](https://img.shields.io/badge/RAPIDS-76B900?style=flat-square&logo=nvidia&logoColor=white)
-![TensorRT](https://img.shields.io/badge/TensorRT-76B900?style=flat-square&logo=nvidia&logoColor=white)
-![llama.cpp](https://img.shields.io/badge/llama.cpp-1A1A1A?style=flat-square)
-
-</td></tr>
-<tr><td align="right"><b>Backend&nbsp;/&nbsp;Data</b></td><td>
+<tr><td align="right"><b>Backend / Data</b></td><td>
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)
 ![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square)
 
 </td></tr>
-<tr><td align="right"><b>Hardware</b></td><td>
+<tr><td align="right"><b>Web / Graphics</b></td><td>
 
-![DGX Spark](https://img.shields.io/badge/DGX%20Spark%20GB10-76B900?style=flat-square&logo=nvidia&logoColor=white)
-![Jetson](https://img.shields.io/badge/Jetson%20AGX%20Orin-76B900?style=flat-square&logo=nvidia&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Three.js](https://img.shields.io/badge/Three.js-20232A?style=flat-square&logo=threedotjs&logoColor=white)
+![MapLibre](https://img.shields.io/badge/MapLibre-396CB2?style=flat-square&logo=maplibre&logoColor=white)
+![Metal](https://img.shields.io/badge/Metal-181717?style=flat-square&logo=apple&logoColor=white)
+
+</td></tr>
+<tr><td align="right"><b>Inference / GPU</b></td><td>
+
+![vLLM](https://img.shields.io/badge/vLLM-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![llama.cpp](https://img.shields.io/badge/llama.cpp-343434?style=flat-square)
+
+</td></tr>
+<tr><td align="right"><b>Engineering</b></td><td>
+
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square)
+![W&B Weave](https://img.shields.io/badge/W%26B%20Weave-FFBE00?style=flat-square&logo=weightsandbiases&logoColor=black)
 
 </td></tr>
 </table>
 
 <div align="center">
-<sub>Virginia Tech · B.S. Computer Science · 2021 – 2024</sub>
+<sub>Virginia Tech · B.S. Computer Science · Dec 2024</sub>
 </div>
