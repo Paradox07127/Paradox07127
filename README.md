@@ -1,42 +1,76 @@
 <h3 align="center">AI Engineer · 2027 New Grad · AI/ML & SWE</h3>
 
-<p align="center">Agent Systems · Multimodal AI · Developer Tools<br>NYU MSCS · Expected Dec 2026 · Available Jan 2027<br><sub><b>English</b> · <a href="README.zh-Hans.md">简体中文</a> · <a href="mailto:tl4549@nyu.edu">Email</a> · <a href="https://linkedin.com/in/taijia-liang-1151ba265/">LinkedIn</a></sub></p>
+<p align="center">Agent Systems · Multimodal AI · Developer Tools<br>NYU MSCS · Expected Dec 2026 · Available Jan 2027<br><b>English</b> · <a href="README.zh-Hans.md">简体中文</a> · <a href="mailto:tl4549@nyu.edu">Email</a> · <a href="https://linkedin.com/in/taijia-liang-1151ba265/">LinkedIn</a></p>
 
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/Paradox07127/Spatial-Video-Agent"><img src=".assets/spatial-preview.png" width="420" alt="Spatial Video Agent: 3D measurement with linked source video and evidence"></a><br><sub>Spatial Video Agent · Measured evidence</sub></td>
-<td width="50%" align="center" valign="top"><a href="https://github.com/Paradox07127/Urban-Dossier"><img src=".assets/urban-preview.png" width="420" alt="Urban Dossier: NYC neighborhood map with safety, transit, amenities and evidence coverage"></a><br><sub>Urban Dossier · NYC neighborhood intelligence</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Paradox07127/Spatial-Video-Agent"><img src=".assets/spatial-preview.png" width="420" alt="Spatial Video Agent: 3D measurement with linked source video and evidence"></a><br><b>Spatial Video Agent · Measured evidence</b></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/Paradox07127/Urban-Dossier"><img src=".assets/urban-preview.png" width="420" alt="Urban Dossier: NYC neighborhood map with safety, transit, amenities and evidence coverage"></a><br><b>Urban Dossier · NYC neighborhood intelligence</b></td>
 </tr>
 </table>
 
-**🎬 [Spatial Video Agent](https://github.com/Paradox07127/Spatial-Video-Agent)** · *Evidence-grounded video investigation*<br>Investigates warehouse, fleet, and street video with Cosmos 3 Nano, Cosmos Embed1, VSS/VastDB, and W&B Inference/Weave. Links source frames to 3D/map views; numeric claims use CV/geometry or telemetry evidence, with explicit abstention when a scene cannot support an answer. **Real-Time Video Hack finalist.**<br><picture><source media="(max-width: 600px)" srcset=".assets/tags-spatial-compact.svg"><img src=".assets/tags-spatial.svg" width="528" alt="Cosmos 3 Nano · Cosmos Embed1 · VSS / VastDB · W&amp;B Inference · Weave · Finalist · Real-Time Video Hack finalist"></picture><br><sub><a href="https://github.com/Paradox07127/Spatial-Video-Agent/blob/main/CONTRACT.md">↗ Evidence contract</a> · <a href="https://github.com/Paradox07127/Spatial-Video-Agent#pipeline">↗ GPU pipeline</a></sub>
+### 🎬 [Spatial Video Agent](https://github.com/Paradox07127/Spatial-Video-Agent) · Evidence-grounded video investigation
 
-**🗺️ [Urban Dossier](https://github.com/Paradox07127/Urban-Dossier)** · *Local NYC neighborhood intelligence*<br>Local NYC intelligence built on deterministic DuckDB/Parquet/H3 metrics. Nemotron 3.5 Lightning runs through vLLM in NVFP4, while NemoClaw/OpenShell tools turn supplied evidence into address comparisons and reports. **Spark Hack NYC 2026 participant.**<br><picture><source media="(max-width: 600px)" srcset=".assets/tags-urban-compact.svg"><img src=".assets/tags-urban.svg" width="441" alt="Nemotron 3.5 · NVFP4 · vLLM · DuckDB / H3 · NemoClaw / OpenShell"></picture><br><sub><a href="https://github.com/Paradox07127/Urban-Dossier/blob/main/docs/ARCHITECTURE.md">↗ Architecture</a> · <a href="https://github.com/Paradox07127/Urban-Dossier/blob/main/docs/architecture/PUBLIC_METHODOLOGY.md">↗ Methodology</a></sub>
+Investigates warehouse, fleet, and street video with Cosmos 3 Nano, Cosmos Embed1, VSS/VastDB, and W&B Inference/Weave.
 
-<img src=".assets/rule.svg" width="100%" height="1" alt="">
+Links source frames to 3D/map views; numeric claims use CV/geometry or telemetry evidence, with explicit abstention when a scene cannot support an answer. **Real-Time Video Hack finalist.**
 
-### 🛠 More projects
+<picture><source media="(max-width: 600px)" srcset=".assets/tags-spatial-compact.svg"><img src=".assets/tags-spatial.svg" width="528" alt="Cosmos 3 Nano · Cosmos Embed1 · VSS / VastDB · W&amp;B Inference · Weave · Finalist · Real-Time Video Hack finalist"></picture><br><a href="https://github.com/Paradox07127/Spatial-Video-Agent/blob/main/CONTRACT.md">↗ Evidence contract</a> · <a href="https://github.com/Paradox07127/Spatial-Video-Agent#pipeline">↗ GPU pipeline</a>
 
-**🖥️ [Loomscreen](https://github.com/Paradox07127/macos-wallpaperengine)** · *Native macOS rendering & desktop workspace*<br>An independent Metal renderer for Wallpaper Engine scenes on macOS: particles, puppet-warp animation, audio-reactive shaders, and SceneScript. Per-display render actors power a multi-monitor workspace with video/web wallpapers, synchronized transitions, playlists, and adaptive playback. Lite and Pro are free and open source.<br><picture><source media="(max-width: 600px)" srcset=".assets/tags-loomscreen-compact.svg"><img src=".assets/tags-loomscreen.svg" width="468" alt="Metal · Particles · Puppet Warp · Audio FX · SceneScript · Per-display Threads"></picture><br><sub><a href="https://github.com/Paradox07127/macos-wallpaperengine/blob/main/docs/en/architecture.md">↗ Architecture</a> · <a href="https://github.com/Paradox07127/macos-wallpaperengine/releases">↗ Releases</a></sub>
+### 🗺️ [Urban Dossier](https://github.com/Paradox07127/Urban-Dossier) · Local NYC neighborhood intelligence
 
-**📊 [Analyst Copilot](https://github.com/Paradox07127/Analyst-Copilot)** · *Reviewable analysis with bounded agents*<br>Local-first EDA combining deterministic profiling with bounded LangGraph workflows and durable checkpoints. Typed artifacts, claim ledgers, and evidence gates keep report conclusions reviewable; model-authored Python runs in a separate Docker sandbox. Includes workflow evaluation and self-contained HTML reports.<br><picture><source media="(max-width: 600px)" srcset=".assets/tags-analyst-compact.svg"><img src=".assets/tags-analyst.svg" width="473" alt="LangGraph · DuckDB · Claim Ledger · Evidence Gates · Docker Sandbox"></picture><br><sub><a href="https://github.com/Paradox07127/Analyst-Copilot#langgraph-execution-architecture">↗ LangGraph design</a> · <a href="https://github.com/Paradox07127/Analyst-Copilot#agent-harness-and-evaluation">↗ Evaluation harness</a></sub>
+Local NYC intelligence built on deterministic DuckDB/Parquet/H3 metrics.
 
-**🧩 [claude-utopia](https://github.com/Paradox07127/claude-utopia)** · *A workbench for coding agents*<br>Claude Code mods for agent dashboards, model/tool-call timelines, and persistent progress boards. The mmrun CLI adds cross-model code review and delegation in separate Git worktrees, while workflow guards protect shared work and sensitive configuration.<br><picture><source media="(max-width: 600px)" srcset=".assets/tags-utopia-compact.svg"><img src=".assets/tags-utopia.svg" width="400" alt="Claude Mods · mmrun · Timeline · Worktrees · Guards · Progress"></picture><br><sub><a href="https://github.com/Paradox07127/claude-utopia#screenshots">↗ Workbench views</a> · <a href="https://github.com/Paradox07127/claude-utopia#install">↗ Install & options</a></sub>
+Nemotron 3.5 Lightning runs through vLLM in NVFP4, while NemoClaw/OpenShell tools turn supplied evidence into address comparisons and reports. **Spark Hack NYC 2026 participant.**
 
-**🩺 [Clinical Simulator](https://github.com/Paradox07127/Clinical-Simulator)** · *Multimodal clinical training*<br>A team-built training platform pairing Gemini patient conversations with rubric-based interview review. MediaPipe Pose tracks 33 body landmarks for camera-based CPR coaching, movement feedback, and post-session scoring. **Cornell AI Hackathon Grand Prize.**<br><picture><source media="(max-width: 600px)" srcset=".assets/tags-clinical-compact.svg"><img src=".assets/tags-clinical.svg" width="501" alt="MediaPipe Pose · Gemini · Pose Coaching · Rubric Scoring · Cornell · Grand Prize · Cornell AI Hackathon Grand Prize"></picture><br><sub><a href="https://github.com/Paradox07127/Clinical-Simulator#training-modules">↗ Training modules</a> · <a href="https://github.com/Paradox07127/Clinical-Simulator#product-flow">↗ Product flow</a></sub>
+<picture><source media="(max-width: 600px)" srcset=".assets/tags-urban-compact.svg"><img src=".assets/tags-urban.svg" width="441" alt="Nemotron 3.5 · NVFP4 · vLLM · DuckDB / H3 · NemoClaw / OpenShell"></picture><br><a href="https://github.com/Paradox07127/Urban-Dossier/blob/main/docs/ARCHITECTURE.md">↗ Architecture</a> · <a href="https://github.com/Paradox07127/Urban-Dossier/blob/main/docs/architecture/PUBLIC_METHODOLOGY.md">↗ Methodology</a>
 
-<img src=".assets/rule.svg" width="100%" height="1" alt="">
+## 🛠 More projects
 
-### 🧭 Focus Areas
+### 🖥️ [Loomscreen](https://github.com/Paradox07127/macos-wallpaperengine) · Native macOS rendering & desktop workspace
 
-🧠 **Multimodal / Physical AI** — video grounding, spatial reasoning, and measured evidence<br>🧩 **Reliable Agents** — bounded workflows, evidence gates, and evaluation<br>⚙️ **Inference / Systems** — local GPU serving and native graphics
+An independent Metal renderer for Wallpaper Engine scenes on macOS: particles, puppet-warp animation, audio-reactive shaders, and SceneScript.
 
-### 📦 Selected Releases
+Per-display render actors power a multi-monitor workspace with video/web wallpapers, synchronized transitions, playlists, and adaptive playback. Lite and Pro are free and open source.
+
+<picture><source media="(max-width: 600px)" srcset=".assets/tags-loomscreen-compact.svg"><img src=".assets/tags-loomscreen.svg" width="468" alt="Metal · Particles · Puppet Warp · Audio FX · SceneScript · Per-display Threads"></picture><br><a href="https://github.com/Paradox07127/macos-wallpaperengine/blob/main/docs/en/architecture.md">↗ Architecture</a> · <a href="https://github.com/Paradox07127/macos-wallpaperengine/releases">↗ Releases</a>
+
+### 📊 [Analyst Copilot](https://github.com/Paradox07127/Analyst-Copilot) · Reviewable analysis with bounded agents
+
+Local-first EDA combining deterministic profiling with bounded LangGraph workflows and durable checkpoints.
+
+Typed artifacts, claim ledgers, and evidence gates keep report conclusions reviewable; model-authored Python runs in a separate Docker sandbox. Includes workflow evaluation and self-contained HTML reports.
+
+<picture><source media="(max-width: 600px)" srcset=".assets/tags-analyst-compact.svg"><img src=".assets/tags-analyst.svg" width="473" alt="LangGraph · DuckDB · Claim Ledger · Evidence Gates · Docker Sandbox"></picture><br><a href="https://github.com/Paradox07127/Analyst-Copilot#langgraph-execution-architecture">↗ LangGraph design</a> · <a href="https://github.com/Paradox07127/Analyst-Copilot#agent-harness-and-evaluation">↗ Evaluation harness</a>
+
+### 🧩 [claude-utopia](https://github.com/Paradox07127/claude-utopia) · A workbench for coding agents
+
+Claude Code mods for agent dashboards, model/tool-call timelines, and persistent progress boards.
+
+The mmrun CLI adds cross-model code review and delegation in separate Git worktrees, while workflow guards protect shared work and sensitive configuration.
+
+<picture><source media="(max-width: 600px)" srcset=".assets/tags-utopia-compact.svg"><img src=".assets/tags-utopia.svg" width="400" alt="Claude Mods · mmrun · Timeline · Worktrees · Guards · Progress"></picture><br><a href="https://github.com/Paradox07127/claude-utopia#screenshots">↗ Workbench views</a> · <a href="https://github.com/Paradox07127/claude-utopia#install">↗ Install & options</a>
+
+### 🩺 [Clinical Simulator](https://github.com/Paradox07127/Clinical-Simulator) · Multimodal clinical training
+
+A team-built training platform pairing Gemini patient conversations with rubric-based interview review.
+
+MediaPipe Pose tracks 33 body landmarks for camera-based CPR coaching, movement feedback, and post-session scoring. **Cornell AI Hackathon Grand Prize.**
+
+<picture><source media="(max-width: 600px)" srcset=".assets/tags-clinical-compact.svg"><img src=".assets/tags-clinical.svg" width="501" alt="MediaPipe Pose · Gemini · Pose Coaching · Rubric Scoring · Cornell · Grand Prize · Cornell AI Hackathon Grand Prize"></picture><br><a href="https://github.com/Paradox07127/Clinical-Simulator#training-modules">↗ Training modules</a> · <a href="https://github.com/Paradox07127/Clinical-Simulator#product-flow">↗ Product flow</a>
+
+## 🧭 Focus Areas
+
+- 🧠 **Multimodal / Physical AI** — video grounding, spatial reasoning, and measured evidence
+- 🧩 **Reliable Agents** — bounded workflows, evidence gates, and evaluation
+- ⚙️ **Inference / Systems** — local GPU serving and native graphics
+
+## 📦 Selected Releases
 
 - **[Loomscreen 0.8.6](https://github.com/Paradox07127/macos-wallpaperengine/releases/tag/loomscreen-v0.8.6)** · Static-scene idle savings, per-frame multi-display presentation, and recovery fixes.
 - **[Loomscreen 0.8.2](https://github.com/Paradox07127/macos-wallpaperengine/releases/tag/loomscreen-v0.8.2)** · Synchronized transitions, daily scheduling, and playlist/shuffle automation.
 
-### 📝 Engineering Notes
+## 📝 Engineering Notes
 
 - **[Video evidence contracts](https://github.com/Paradox07127/Spatial-Video-Agent/blob/main/CONTRACT.md)** · Source provenance, claim verdicts, and durable investigations.
 - **[Bounded LangGraph workflows](https://github.com/Paradox07127/Analyst-Copilot#langgraph-execution-architecture)** · Checkpoints, typed artifacts, and evidence-gated reporting.
@@ -91,4 +125,4 @@
 
 </details>
 
-<sub>Virginia Tech · B.S. Computer Science · Dec 2024</sub>
+<p align="center">Virginia Tech · B.S. Computer Science · Dec 2024</p>
