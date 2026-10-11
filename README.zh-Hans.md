@@ -1,4 +1,6 @@
-<p align="center"><b>AI 工程师 · 2027 届校招 · AI/ML & SWE</b><br><sub>Agent 系统 · 多模态 AI · 开发者工具 · NYU CS 硕士（预计 2026.12）· 2027.01 可入职</sub><br><sub><a href="README.md">English</a> · <b>简体中文</b> · <a href="mailto:tl4549@nyu.edu">邮箱</a> · <a href="https://linkedin.com/in/taijia-liang-1151ba265/">LinkedIn</a></sub></p>
+<h3 align="center">AI 工程师 · 2027 届校招 · AI/ML & SWE</h3>
+
+<p align="center">Agent 系统 · 多模态 AI · 开发者工具<br>NYU 计算机科学硕士 · 预计 2026.12 毕业 · 2027.01 可入职<br><sub><a href="README.md">English</a> · <b>简体中文</b> · <a href="mailto:tl4549@nyu.edu">邮箱</a> · <a href="https://linkedin.com/in/taijia-liang-1151ba265/">LinkedIn</a></sub></p>
 
 <table>
 <tr>
@@ -7,22 +9,42 @@
 </tr>
 </table>
 
-**[Spatial Video Agent](https://github.com/Paradox07127/Spatial-Video-Agent)** · **Real-Time Video Hack 决赛入围。** 结合 Cosmos 3 Nano、测量证据和 3D / 原始视频视图，完成多摄像头视频调查。<br><img src=".assets/tags-spatial.svg" width="409" alt="Cosmos 3 Nano · Cosmos Embed1 · VSS/VastDB · W&B Inference/Weave · Real-Time Video Hack Finalist">
+**🎬 [Spatial Video Agent](https://github.com/Paradox07127/Spatial-Video-Agent)** · *有测量证据的视频调查*<br>结合 Cosmos 3 Nano、Cosmos Embed1、VSS/VastDB 与 W&B Inference/Weave，调查多摄像头仓库、车载及街景视频。将原始帧与 3D / 地图视图联动；数值结论来自 CV / 几何或遥测证据，证据不足时明确标记无法判定。**Real-Time Video Hack 决赛入围。**<br><picture><source media="(max-width: 600px)" srcset=".assets/tags-spatial-compact.svg"><img src=".assets/tags-spatial.svg" width="528" alt="Cosmos 3 Nano · Cosmos Embed1 · VSS / VastDB · W&amp;B Inference · Weave · Finalist · Real-Time Video Hack finalist"></picture><br><sub><a href="https://github.com/Paradox07127/Spatial-Video-Agent/blob/main/CONTRACT.md">↗ 证据契约</a> · <a href="https://github.com/Paradox07127/Spatial-Video-Agent#pipeline">↗ GPU 流水线</a></sub>
 
-**[Urban-Dossier](https://github.com/Paradox07127/Urban-Dossier)** · 以 Nemotron 3.5 Lightning（NVFP4/vLLM）、H3 指标及 NemoClaw/OpenShell 工具提供纽约社区情报。Spark Hack NYC 2026 参赛项目。<br><img src=".assets/tags-urban.svg" width="254" alt="Nemotron 3.5 · NVFP4 · H3 · OpenShell">
+**🗺️ [Urban Dossier](https://github.com/Paradox07127/Urban-Dossier)** · *本地纽约社区情报*<br>以 DuckDB/Parquet/H3 提供确定性的纽约社区指标，使用 vLLM 以 NVFP4 运行 Nemotron 3.5 Lightning。NemoClaw/OpenShell 工具基于既有证据生成地址比较与分析报告。**Spark Hack NYC 2026 参赛项目。**<br><picture><source media="(max-width: 600px)" srcset=".assets/tags-urban-compact.svg"><img src=".assets/tags-urban.svg" width="441" alt="Nemotron 3.5 · NVFP4 · vLLM · DuckDB / H3 · NemoClaw / OpenShell"></picture><br><sub><a href="https://github.com/Paradox07127/Urban-Dossier/blob/main/docs/ARCHITECTURE.md">↗ 系统架构</a> · <a href="https://github.com/Paradox07127/Urban-Dossier/blob/main/docs/architecture/PUBLIC_METHODOLOGY.md">↗ 数据方法</a></sub>
 
-### 更多项目
+<img src=".assets/rule.svg" width="100%" height="1" alt="">
 
-**[Loomscreen](https://github.com/Paradox07127/macos-wallpaperengine)** · 用 Metal 原生渲染 Wallpaper Engine 场景，支持粒子、骨骼形变、音频响应着色器及每显示器渲染线程。<br><img src=".assets/tags-loomscreen.svg" width="266" alt="Metal · Particles · Puppet Warp · Audio FX">
+### 🛠 更多项目
 
-**[Analyst-Copilot](https://github.com/Paradox07127/Analyst-Copilot)** · 通过有界 LangGraph 工作流、claim ledger、证据校验与 Docker 沙箱提供可核查的数据分析。<br><img src=".assets/tags-analyst.svg" width="354" alt="LangGraph · Claim Ledger · Evidence Gates · Sandbox">
+**🖥️ [Loomscreen](https://github.com/Paradox07127/macos-wallpaperengine)** · *macOS 原生渲染与多显示器桌面*<br>独立实现 macOS 上的 Wallpaper Engine Metal 场景渲染，支持粒子、骨骼形变、音频响应着色器和 SceneScript。每显示器渲染 Actor 驱动多屏工作区，并提供视频 / 网页壁纸、同步转场、播放列表及自适应播放；Lite 与 Pro 均免费开源。<br><picture><source media="(max-width: 600px)" srcset=".assets/tags-loomscreen-compact.svg"><img src=".assets/tags-loomscreen.svg" width="468" alt="Metal · Particles · Puppet Warp · Audio FX · SceneScript · Per-display Threads"></picture><br><sub><a href="https://github.com/Paradox07127/macos-wallpaperengine/blob/main/docs/zh-Hans/architecture.md">↗ 渲染架构</a> · <a href="https://github.com/Paradox07127/macos-wallpaperengine/releases">↗ 正式版本</a></sub>
 
-**[claude-utopia](https://github.com/Paradox07127/claude-utopia)** · Claude Code 插件，提供 Agent 遥测、mmrun 跨模型审查、工作树委派与工作流保护。<br><img src=".assets/tags-utopia.svg" width="276" alt="Claude Mods · mmrun · Telemetry · Guards">
+**📊 [Analyst Copilot](https://github.com/Paradox07127/Analyst-Copilot)** · *有界 Agent 与可核查分析*<br>将确定性数据画像、有界 LangGraph 工作流和持久化检查点结合的本地数据分析工作区。类型化产物、claim ledger 与证据校验让报告结论可核查；模型编写的 Python 在独立 Docker 沙箱中执行，并提供工作流评估与自包含 HTML 报告。<br><picture><source media="(max-width: 600px)" srcset=".assets/tags-analyst-compact.svg"><img src=".assets/tags-analyst.svg" width="473" alt="LangGraph · DuckDB · Claim Ledger · Evidence Gates · Docker Sandbox"></picture><br><sub><a href="https://github.com/Paradox07127/Analyst-Copilot#langgraph-execution-architecture">↗ LangGraph 设计</a> · <a href="https://github.com/Paradox07127/Analyst-Copilot#agent-harness-and-evaluation">↗ 评估框架</a></sub>
 
-**[Clinical-Simulator](https://github.com/Paradox07127/Clinical-Simulator)** · 结合 Gemini 病人问诊、量表评分与 MediaPipe Pose 心肺复苏指导的团队项目。 **Cornell AI Hackathon 大奖。**<br><img src=".assets/tags-clinical.svg" width="378" alt="MediaPipe · Gemini · Rubric Scoring · Cornell AI Hackathon Grand Prize">
+**🧩 [claude-utopia](https://github.com/Paradox07127/claude-utopia)** · *编程 Agent 的开发工作台*<br>通过 Claude Code mods 提供 Agent 仪表盘、模型 / 工具调用时间线与持久化进度板。mmrun CLI 支持跨模型代码审查及独立 Git 工作树委派，工作流保护机制覆盖共享改动与敏感配置。<br><picture><source media="(max-width: 600px)" srcset=".assets/tags-utopia-compact.svg"><img src=".assets/tags-utopia.svg" width="400" alt="Claude Mods · mmrun · Timeline · Worktrees · Guards · Progress"></picture><br><sub><a href="https://github.com/Paradox07127/claude-utopia#screenshots">↗ 工作台界面</a> · <a href="https://github.com/Paradox07127/claude-utopia#install">↗ 安装与选项</a></sub>
+
+**🩺 [Clinical Simulator](https://github.com/Paradox07127/Clinical-Simulator)** · *多模态临床训练*<br>团队开发的临床训练平台，结合 Gemini 病人对话与基于量表的问诊评估。MediaPipe Pose 跟踪 33 个人体关键点，提供摄像头心肺复苏指导、动作反馈及训练后评分。**Cornell AI Hackathon 大奖。**<br><picture><source media="(max-width: 600px)" srcset=".assets/tags-clinical-compact.svg"><img src=".assets/tags-clinical.svg" width="501" alt="MediaPipe Pose · Gemini · Pose Coaching · Rubric Scoring · Cornell · Grand Prize · Cornell AI Hackathon Grand Prize"></picture><br><sub><a href="https://github.com/Paradox07127/Clinical-Simulator#training-modules">↗ 训练模块</a> · <a href="https://github.com/Paradox07127/Clinical-Simulator#product-flow">↗ 产品流程</a></sub>
+
+<img src=".assets/rule.svg" width="100%" height="1" alt="">
+
+### 🧭 Focus Areas · 关注方向
+
+🧠 **多模态 / Physical AI** — 视频理解、空间推理与测量证据<br>🧩 **可靠 Agent** — 有界工作流、证据校验与评估<br>⚙️ **推理 / 系统** — 本地 GPU 推理服务与原生图形渲染
+
+### 📦 Selected Releases · 精选版本
+
+- **[Loomscreen 0.8.6](https://github.com/Paradox07127/macos-wallpaperengine/releases/tag/loomscreen-v0.8.6)** · 静态场景空闲节能、多屏每帧呈现协调及恢复修复。
+- **[Loomscreen 0.8.2](https://github.com/Paradox07127/macos-wallpaperengine/releases/tag/loomscreen-v0.8.2)** · 同步转场、每日时间表与播放列表 / 随机轮播自动化。
+
+### 📝 Engineering Notes · 工程笔记
+
+- **[视频证据契约](https://github.com/Paradox07127/Spatial-Video-Agent/blob/main/CONTRACT.md)** · 来源追溯、结论判定与持久化调查。
+- **[有界 LangGraph 工作流](https://github.com/Paradox07127/Analyst-Copilot#langgraph-execution-architecture)** · 检查点、类型化产物与报告发布的证据门槛。
+- **[确定性的纽约社区指标](https://github.com/Paradox07127/Urban-Dossier/blob/main/docs/ARCHITECTURE.md)** · DuckDB/H3 分析、vLLM 推理与 OpenShell 边界。
+- **[原生 Metal 渲染](https://github.com/Paradox07127/macos-wallpaperengine/blob/main/docs/zh-Hans/architecture.md)** · 场景图、帧输入与每显示器渲染 Actor。
 
 <details>
-<summary><b>完整技术栈</b></summary>
+<summary><b>⚙️ 完整技术栈</b></summary>
 
 <table>
 <tr><td align="right"><b>编程语言</b></td><td>

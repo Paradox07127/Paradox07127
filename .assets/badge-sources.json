@@ -1,7 +1,42 @@
 {
   "style": "flat-square",
-  "palette": "original brand and component colors",
-  "source_urls": [
+  "palette": "brand and component colors",
+  "desktop_source_urls": [
+    "https://img.shields.io/badge/Audio%20FX-0D9488?style=flat-square",
+    "https://img.shields.io/badge/Claim%20Ledger-7C3AED?style=flat-square",
+    "https://img.shields.io/badge/Claude%20Mods-D97757?style=flat-square&logo=claude&logoColor=white",
+    "https://img.shields.io/badge/Cornell%20%C2%B7%20Grand%20Prize-B31B1B?style=flat-square",
+    "https://img.shields.io/badge/Cosmos%203%20Nano-76B900?style=flat-square&logo=nvidia&logoColor=white",
+    "https://img.shields.io/badge/Cosmos%20Embed1-76B900?style=flat-square",
+    "https://img.shields.io/badge/Docker%20Sandbox-2496ED?style=flat-square&logo=docker&logoColor=white",
+    "https://img.shields.io/badge/DuckDB%20%2F%20H3-FFF000?style=flat-square&logo=duckdb&logoColor=black",
+    "https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black",
+    "https://img.shields.io/badge/Evidence%20Gates-0D9488?style=flat-square",
+    "https://img.shields.io/badge/Finalist-D4A72C?style=flat-square",
+    "https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white",
+    "https://img.shields.io/badge/Guards-5965D8?style=flat-square",
+    "https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=white",
+    "https://img.shields.io/badge/MediaPipe%20Pose-0097A7?style=flat-square&logo=mediapipe&logoColor=white",
+    "https://img.shields.io/badge/Metal-181717?style=flat-square&logo=apple&logoColor=white",
+    "https://img.shields.io/badge/NVFP4-76B900?style=flat-square",
+    "https://img.shields.io/badge/NemoClaw%20%2F%20OpenShell-76B900?style=flat-square",
+    "https://img.shields.io/badge/Nemotron%203.5-76B900?style=flat-square&logo=nvidia&logoColor=white",
+    "https://img.shields.io/badge/Particles-5965D8?style=flat-square",
+    "https://img.shields.io/badge/Per--display%20Threads-5965D8?style=flat-square",
+    "https://img.shields.io/badge/Pose%20Coaching-0097A7?style=flat-square",
+    "https://img.shields.io/badge/Progress-0D9488?style=flat-square",
+    "https://img.shields.io/badge/Puppet%20Warp-7C3AED?style=flat-square",
+    "https://img.shields.io/badge/Rubric%20Scoring-7C3AED?style=flat-square",
+    "https://img.shields.io/badge/SceneScript-F7DF1E?style=flat-square",
+    "https://img.shields.io/badge/Timeline-0D9488?style=flat-square",
+    "https://img.shields.io/badge/VSS%20%2F%20VastDB-006B5E?style=flat-square",
+    "https://img.shields.io/badge/W%26B%20Inference-FFBE00?style=flat-square&logo=weightsandbiases&logoColor=black",
+    "https://img.shields.io/badge/Weave-FFBE00?style=flat-square",
+    "https://img.shields.io/badge/Worktrees-5965D8?style=flat-square",
+    "https://img.shields.io/badge/mmrun-6B46C1?style=flat-square",
+    "https://img.shields.io/badge/vLLM-76B900?style=flat-square"
+  ],
+  "compact_source_urls": [
     "https://img.shields.io/badge/Audio%20FX-0D9488?style=flat-square",
     "https://img.shields.io/badge/Claim%20Ledger-7C3AED?style=flat-square",
     "https://img.shields.io/badge/Claude%20Mods-D97757?style=flat-square&logo=claude&logoColor=white",
@@ -28,7 +63,15 @@
     "https://img.shields.io/badge/VSS%2FVastDB-006B5E?style=flat-square",
     "https://img.shields.io/badge/mmrun-6B46C1?style=flat-square"
   ],
-  "project_tag_widths": {
+  "desktop_widths": {
+    "spatial": 528,
+    "urban": 441,
+    "loomscreen": 468,
+    "analyst": 473,
+    "utopia": 400,
+    "clinical": 501
+  },
+  "compact_widths": {
     "spatial": 409,
     "loomscreen": 266,
     "analyst": 354,
@@ -36,8 +79,6 @@
     "urban": 254,
     "clinical": 378
   },
-  "award_placement": {
-    "spatial": "Finalist in project tag row; full event named in summary",
-    "clinical": "Cornell Grand Prize in project tag row"
-  }
+  "compact_media": "(max-width: 600px)",
+  "award_placement": "in project tag rows"
 }
